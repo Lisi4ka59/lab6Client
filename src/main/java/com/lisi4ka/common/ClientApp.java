@@ -136,7 +136,7 @@ public class ClientApp {
         }
         return true;
     }
-    public static void clientRun() throws Exception {
+    public static void clientRun() {
         ClientApp clientApp = new ClientApp();
         clientApp.run();
     }
