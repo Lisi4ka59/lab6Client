@@ -6,9 +6,8 @@ import static com.lisi4ka.utils.Checker.*;
 
 public class CityReader {
     public static String inputName() {
-        return inputStringNotNull("City name (name can not be null): ");
+        return inputStringNotNull("City name (name can not be null): ").replace(" ", "_");
     }
-
     public static Coordinates inputCoordinates() {
         double x;
         System.out.println("City coordinates");
