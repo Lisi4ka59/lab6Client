@@ -6,7 +6,7 @@ import static com.lisi4ka.utils.Checker.*;
 
 public class CityReader {
     public static String inputName() {
-        return inputStringNotNull("City name (if entered string has \" \", they will be replaced with \"_\"): ").replace(" ", "_");
+        return inputStringNotNull("City name: ").replace(" ", "**");
     }
     public static Coordinates inputCoordinates() {
         double x;
